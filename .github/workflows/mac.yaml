@@ -1,0 +1,10 @@
+name: mac
+
+jobs:
+  mac-build:
+    runs-on: mac-11
+    steps:
+      - name: Test
+        run: echo "Test"
+      - name: sw_vers
+        run: sw_vers
