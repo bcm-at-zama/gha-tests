@@ -13,7 +13,7 @@ jobs:
       - name: sw_vers
         run: sw_vers
       - name: Install
-        run: python3 -m pip install torch
+        run: python3 -m pip install torch numpy
       - name: pip list
         run: python3 -m pip list
       - name: supported engines
