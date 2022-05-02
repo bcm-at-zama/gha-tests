@@ -12,3 +12,9 @@ jobs:
         run: echo "Test"
       - name: sw_vers
         run: sw_vers
+      - name: Install
+        run: pip install torch
+      - name: pip list
+        run: pip list
+      - name: supported engines
+        run: python -c "import torch; print(torch.backends.quantized.supported_engines)"
