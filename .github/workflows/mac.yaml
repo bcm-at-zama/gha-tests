@@ -6,7 +6,7 @@ on:
 
 jobs:
   mac-build:
-    runs-on: mac-11
+    runs-on: macos-11
     steps:
       - name: Test
         run: echo "Test"
